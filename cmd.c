@@ -1,5 +1,7 @@
 #include "shell.h"
 
+#define MAX_COMMAND_LENGTH 256
+
 /**
  * main - entry point
  *
