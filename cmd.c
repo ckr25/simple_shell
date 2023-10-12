@@ -9,7 +9,7 @@
 int main(int ac, char **argv)
 {
 	pid_t pid;
-	int command;
+	char *command;
 
 	(void)ac;
 
@@ -26,7 +26,7 @@ int main(int ac, char **argv)
 
 		command[strcspn(command, "\n")] = '\0';
 
-		pid_t pid = fork();
+		pid = fork();
 
 		if (pid == -1)
 		{
