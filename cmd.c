@@ -9,7 +9,7 @@
 int main(int ac, char **argv)
 {
 	pid_t pid;
-	char command;
+	char command[MAX_COMMAND_LENGTH];
 
 	(void)ac;
 
