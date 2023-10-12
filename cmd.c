@@ -8,6 +8,11 @@
 
 int main(int ac, char **argv)
 {
+	pid_t pid;
+	int command;
+
+	(void)ac;
+
 	while (1)
 	{
 		printf("SimpleShell>>");
