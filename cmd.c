@@ -4,7 +4,8 @@
 
 /**
  * main - entry point
- *
+ * @ac: number of argument passed
+ * @argv: arguments passed
  * Return: Always 0
  */
 
