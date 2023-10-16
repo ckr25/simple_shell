@@ -44,6 +44,7 @@ int main(int ac, char **argv)
 		else
 		{
 			int status;
+
 			waitpid(pid, &status, 0);
 		}
 	}
